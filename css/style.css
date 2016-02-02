@@ -84,15 +84,19 @@ header nav ul li {
   margin: 0 auto;
 }
 
-
-.blogpost-1 {
-  float:left;
-  Margin-left: 60px;
-  width: 700px;
-  margin-top: 50px;
+.body-column-1 {
+  float: left;
+  width: 800px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
-.posttitle-1 {
+.blogpost {
+  margin-top: 50px;
+  
+}
+
+.posttitle {
   font-size: 40px;
   font-weight: Semibold;
   color: #033048;
@@ -105,6 +109,10 @@ p {
   Margin-top: 20px;
   color: #606161;
   line-height: 30px;
+}
+
+.image-responsive {
+  width: 100%;
 }
 
 .button {
@@ -123,17 +131,46 @@ hr {
 
   }
 
+p {
+  font-size: 24px;
+  font-weight: light;
+  Margin-top: 20px;
+  color: #606161;
+  line-height: 30px;
+}
+
+.button {
+  float:right;
+  margin-top: 30px;
+  font-weight: Semibold;
+  color: #033048;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+hr {
+    /*display: block;*/
+    /*width: 700px;*/
+    /*border-top: 1px solid #033048;*/
+    /*margin-bottom: 60px;*/
+
+  }
+
+.clear-parent {
+  clear: both;
+}
+
 aside {
   float: left;
-  margin-left:30px;
-  width:200px;
+  /*margin-left:30px;*/
+  width: 300px;
 
 }
 
 aside p {
   margin-top: 50px;
   font-size: 32px;
-  font-weight: extra bold;
+  font-weight: extrabold;
   color: #033048;
   Margin-bottom:20px;
 }
@@ -146,61 +183,18 @@ aside ul {
   color:#033048;
   }
 
-aside div .abouttext {
+.abouttext {
   color: #033048;
   font-size: 22px;
   font-weight: light;
 }
 
-aside div.learntext {
+.learntext {
   font-size: 22px;
   font-weight: Semibold;
   color:#033048;
   Margin-bottom: 40px;
  
-}
-
-.blogpost-2 {
-  float:left;
-  Margin-left: 80px;
-  width: 700px;
-  margin-top: 20px;
-}
-
-.posttitle-2 {
-  font-size: 40px;
-  font-weight: Semibold;
-  color: #033048;
-  margin-bottom: 20px;
-}
-
-p {
-  font-size: 24px;
-  font-weight: light;
-  Margin-top: 20px;
-  color: #606161;
-  line-height: 30px;
-}
-
-.button {
-  float:right;
-  margin-top: 30px;
-  font-weight: Semibold;
-  color: #033048;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-hr {
-    display: block;
-    width: 700px;
-    border-top: 1px solid #033048;
-    margin-bottom: 60px;
-
-  }
-
-.clear-parent {
-  clear: both;
 }
 
 footer {
